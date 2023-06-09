@@ -1,0 +1,154 @@
+.select-box p {
+  font-size: 1em;
+  float: left;
+  margin-right: 5px;
+}
+.select-box select {
+  width: 150px;
+}
+p {
+  margin: 0;
+}
+.flag {
+  font-size: 5rem;
+  text-align: center;
+  width: 900px;
+  height: 600px;
+  border: 1px solid black;
+}
+
+/* czech */
+.flag.czech {
+  background-color: white;
+  position: relative;
+}
+.flag.czech > .red {
+  height: 50%;
+  width: 100%;
+  background-color: #d7141a;
+  position: absolute;
+  top: 300px;
+}
+.flag.czech > .red p {
+  color: white;
+  margin-top: 200px;
+}
+.flag.czech > .blue {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0px;
+  border-top: 300px solid transparent;
+  border-bottom: 300px solid transparent;
+  border-left: 450px solid #11457e;
+  z-index: 1;
+}
+
+/* iceland */
+.flag.iceland {
+  background-color: #003897;
+  color: white;
+  position: relative;
+  text-align: right;
+}
+.flag.iceland p {
+  margin-right: 10px;
+}
+.flag.iceland div.white.vertical {
+  background-color: white;
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.flag.iceland div.white.horizontal {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  top: 240px;
+  left: 0;
+}
+.flag.iceland div.red.vertical {
+  background-color: #d72828;
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35px;
+  z-index: 1;
+}
+.flag.iceland div.red.horizontal {
+  background-color: #d72828;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+
+/* italy */
+.flag.italy {
+  background-color: #009246;
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.flag.italy p {
+  margin-left: 10px;
+}
+.flag.italy div.white {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 300px;
+  height: 100%;
+}
+.flag.italy div.red {
+  background-color: #ce2b37;
+  position: absolute;
+  top: 0;
+  left: 600px;
+  width: 300px;
+  height: 100%;
+}
+
+/* laos */
+.flag.laos {
+  background-color: #ce1126;
+  position: relative;
+}
+.flag.laos > p {
+  color: white;
+}
+.flag.laos > div {
+  background-color: #002868;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
+.flag.laos > div div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+}
+
+/* latvia */
+.flag.latvia {
+  background-color: #981e32;
+  position: relative;
+}
+.flag.latvia div {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 250px;
+}

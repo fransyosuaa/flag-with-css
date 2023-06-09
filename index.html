@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flag Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+
+  <!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+  <body>
+    <div class="select-box">
+      <p>Please select</p>
+      <select onchange="onChangeHandler(this.value)">
+        <option value="">Select One</option>
+        <option value="czech">Czech Republic</option>
+        <option value="iceland">Iceland</option>
+        <option value="italy">Italy</option>
+        <option value="laos">Laos</option>
+        <option value="latvia">Latvia</option>
+      </select>
+    </div>
+    <hr />
+    <div class="flag czech">
+      <p>The Flag</p>
+      <div class="blue"></div>
+      <div class="red">
+        <p>of Czech</p>
+      </div>
+    </div>
+    <div class="flag iceland">
+      <p>The Flag<br />of Iceland</p>
+      <div class="white vertical">
+        <div class="red vertical"></div>
+      </div>
+      <div class="white horizontal">
+        <div class="red horizontal"></div>
+      </div>
+    </div>
+    <div class="flag italy">
+      <p>The flag<br />of Italy</p>
+      <div class="white"></div>
+      <div class="red"></div>
+    </div>
+    <div class="flag laos">
+      <p>The Flag</p>
+      <div>
+        <div>
+          <p>of Laos</p>
+        </div>
+      </div>
+    </div>
+    <div class="flag latvia">
+      <div>
+        <p>The flag of Latvia</p>
+      </div>
+    </div>
+  </body>
+</html>
